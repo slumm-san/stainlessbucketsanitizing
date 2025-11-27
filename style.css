@@ -285,6 +285,16 @@ left: auto;
         width: 100%;
         padding: 0;
     }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 40%;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+   
      .contactus {
         width: 100%;
         height: auto;
@@ -310,7 +320,7 @@ left: auto;
         height: auto;
         display: block;
     }
-   
+    
     .navbar__menu {
         display: grid;
         grid-template-columns: auto;
@@ -385,15 +395,6 @@ left: auto;
     display: table;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    width: 80%;
-    margin: 0;
-    font-size: 1.5rem;
-}
 #mobile-menu {
     position: absolute;
     top: 20%;
@@ -415,5 +416,3 @@ left: auto;
     transform: translateY(-8px) rotate(-45deg);
     
 }
-
-
