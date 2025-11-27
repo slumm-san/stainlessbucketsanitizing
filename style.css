@@ -363,9 +363,10 @@ left: auto;
         padding: 0;
     }
     .contactus {
-        width: 100%;
+        width: 70%;
         height: auto;
         display: block;
+        
     }
     .button {
         display: flex;
