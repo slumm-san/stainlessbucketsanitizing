@@ -299,6 +299,9 @@ h2 {
     margin-right: 1.5rem;
     cursor: pointer;
 }
+.bucket__image {
+ display: none;
+}
 /*---end of media query--*/
 }
 
@@ -375,3 +378,9 @@ h2 {
     transform: translateY(-8px) rotate(-45deg);
     
 }
+
+#mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    
+}
+
