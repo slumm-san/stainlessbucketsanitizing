@@ -1,3 +1,4 @@
+
 *{
 
 margin: 0;
@@ -349,7 +350,87 @@ left: auto;
 .bucket__image {
  display: none;
 }
+}
 /*---end of media query--*/
+@media screen and (max-width: 768px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1000;
+        max-width: 1300px;
+        width: 100%;
+        padding: 0;
+    }
+    .contactus {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 40%;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+   
+     .contactus {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .handshake {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .cleaningproducts {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .mountain {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .cleaningservices {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .navbar__menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background: #26701f;
+        opacity: 0;
+        transition: all 0.5s ease, opacity 0.5s ease;
+        height: 100vh;
+        z-index: 998;
+    }
+    .navbar__toggle {
+    display: block;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.hero-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.bucket__image {
+ display: none;
+}
 }
 
 .bucket__image img {
